@@ -678,6 +678,48 @@ body {
   background-color: #E2DEDB;
 }
 
+.line {
+  position: relative;
+  width: 850px;
+  height: 2px;
+  background-color: #fdd6ba;
+}
+
+.circle {
+  position: absolute;
+  width: 31px;
+  height: 31px;
+  border-radius: 50%;
+  border: 1px solid #0E8784;
+  top: 0;
+  bottom: 0;
+  background-color: #fff;
+  margin: auto 0;
+}
+
+.circle2 {
+  left: 415px;
+}
+
+.circle3 {
+  right: 0;
+}
+
+.circle4 {
+  left: 415px;
+  background-color: #333d4b;
+}
+
+.circle5 {
+  background-color: #333d4b;
+  right: 0px;
+}
+
+.circle1 {
+  background-color: #333d4b;
+  left: 0;
+}
+
 .footer {
   padding: 47px 70px;
   background-color: #2C343E;
@@ -958,6 +1000,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 82px;
 }
 
 .choose__item {
