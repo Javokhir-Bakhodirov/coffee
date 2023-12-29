@@ -1,0 +1,48 @@
+.compromis-section{
+    padding-top: 160px;
+}
+
+.compromis {
+    background-color: #2C343E;
+    border-radius: 8px;
+    padding: 100px 0 180px 85px;
+    position: relative;
+
+    &::after{
+        position: absolute;
+        content: "";
+        background-image: url(../img/compromis.png);
+        border-radius: 8px;
+        height: 490px;
+        width: 550px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        right: 45px;
+        top: -65px;
+    }
+}
+
+.compromis__text-block {
+    width: 540px;
+    
+}
+
+.compromis__title {
+    padding-bottom: 32px;
+    color: #FEFCF7;
+    font-family: Fraunces, serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px;
+}
+
+.compromis__text {
+    color: #FEFCF7;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.8;
+}

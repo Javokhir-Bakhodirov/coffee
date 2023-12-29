@@ -1,0 +1,36 @@
+.plan-hero-section {
+    padding-top: 43px;
+}
+
+.plan-hero {
+    padding: 137px 0 137px 85px;
+    background-image: url(../img/plan-bg.png);
+    background-repeat: no-repeat;
+    background-size: 1280px;
+    background-position: calc(50% + 0px);
+    border-radius: 12px;
+}
+
+.plan-hero__text-block {
+    width: 445px;
+}
+
+.plan-hero__title {
+    color: #FEFCF7;
+    font-family: Fraunces, serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 72px;
+    margin-bottom: 32px;
+}
+
+.plan-hero__text {
+    color: #FEFCF7;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.8;
+}
